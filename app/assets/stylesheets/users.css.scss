@@ -1,0 +1,39 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.pagination {
+  margin: 20px auto;
+  padding-left: 25%;
+  padding-bottom: 1.5em;
+
+  // .previous_page,
+  // .next_page {
+  //   border: 2 solid black;
+  // }
+
+  .previous_page {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .next_page {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #aaaaaa;
+  }
+
+  > *{
+    border: 1px solid #aaaaaa;
+    border-right: 0px;
+    padding: 5px;
+    float: left;
+    &:hover {
+      background-color: #c3c3c3;
+      color: red;
+    }
+  }
+
+    
+}
